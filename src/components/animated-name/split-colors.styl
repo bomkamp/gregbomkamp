@@ -1,0 +1,19 @@
+@import '~@/assets/styles/theme.styl'
+
+.name-svg path
+  stroke-dasharray: 100;
+  fill: $theme-background;
+  stroke-width: 3px !important;
+
+.over path
+  stroke: $theme-pink;
+  animation: dash 15s linear infinite forwards;
+
+.under path
+  stroke: $theme-lightblue;
+  animation: dash 15s linear infinite forwards;
+  animation-delay: -7.5s;
+
+@keyframes dash
+  to
+    stroke-dashoffset: 1000;
