@@ -54,7 +54,7 @@ export default class Home extends Vue {
 
 <style lang="stylus">
 .animated-name
-  margin-bottom: .2vh;
+  margin-bottom: 3%;
 
 .banner-contact
   margin: 0 10%;
@@ -64,8 +64,8 @@ export default class Home extends Vue {
   margin-bottom: 40px;
 
 .banner-icon
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 30px;
 
   vertical-align: align-self auto;
