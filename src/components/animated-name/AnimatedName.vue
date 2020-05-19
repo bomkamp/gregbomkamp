@@ -1,5 +1,5 @@
 <template>
-  <div class="name-animation">
+  <div class="name-animation-container">
     <GregBomkampSVG class="name-svg over overlay"></GregBomkampSVG>
     <GregBomkampSVG class="name-svg under overlay"></GregBomkampSVG>
   </div>
@@ -20,19 +20,22 @@ export default class AnimatedName extends Vue {}
 <style lang="stylus">
 @import './split-colors.styl';
 
-.name-animation
+.name-animation-container
   margin: 0px;
-  position: relative;
-  height: 100px;
-  width: 800px;
   display: block;
-  margin: auto;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
 
 .overlay
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+.over
+  z-index: 9;
 </style>
