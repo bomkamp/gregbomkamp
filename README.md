@@ -1,4 +1,4 @@
-# gregbomkamp
+# [gregbomkamp](https://gregbomkamp.dev)
 
 ## Project setup
 ```
