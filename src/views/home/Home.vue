@@ -45,7 +45,7 @@ export default class Home extends Vue {
   // May as well protect my email from any simple scraper
   private openMail(): void {
     window.open(
-      `mailto:${atob("Z3JlZ29yeS5ib21rYW1wQGdtYWlsLmNvbQ==")}`,
+      `mailto:${atob("Ym9ta2FtcGdAZ21haWwuY29t")}`,
       "_blank"
     );
   }
